@@ -154,6 +154,10 @@ save(list = ls(all = TRUE),file = "data_inbreds.RData") #Saving the inbred lines
 ############################################################################################################
 ##########################################PCA Analysis######################################################
 
+##All the phenotypic and genotypic data processed above used to obtain the results of the manuscript can be download here:
+setwd("/home/jhonathan/Documentos/MVGBLUP/Data")
+load("data_inbreds.RData")
+
 # Additive relationship matrix function
 A.vit= function (K) {
   freq=colMeans(K)/2
