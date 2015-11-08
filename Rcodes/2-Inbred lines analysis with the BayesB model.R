@@ -32,7 +32,7 @@ Wd.vit = function (K) {
 }
 #################
 
-##All the phenotypic and genotypic data processed above used to obtain the results of the manuscript can be download here:
+##All the phenotypic and genotypic data processed used to obtain the results of the manuscript can be download here:
 setwd("/home/jhonathan/Documentos/MVGBLUP/Data")
 load("data_inbreds.RData")
 
